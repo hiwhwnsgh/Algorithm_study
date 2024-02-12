@@ -27,5 +27,5 @@ rl.on("line", (line) => {
 rl.on("close", () => {
     const A = input[0];
     const K = input[1];
-    console.log(minCountToK(A, K)); // 출력: 151 또는 문제에 따라 다른 최소 연산 횟수
+    console.log(minCountToK(A, K));
 });
