@@ -29,3 +29,4 @@ rl.on("close", () => {
     const K = input[1];
     console.log(minCountToK(A, K));
 });
+
